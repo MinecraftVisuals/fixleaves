@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "betterleaves-top",
+  "version": "${version}",
+  "name": "Better Leaves On Top",
+  "description": "Forces the Better-Leaves-9.5 resource pack to the top of the pack list on every launch.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["betterleaves-top.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
